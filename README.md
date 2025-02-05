@@ -19,6 +19,16 @@ syslogPort='514'<br>
 messageFormat='LEEF' #i t could be LEEF, CEF or RFC5424<br>
 #############################<br>
 <br>
+After the script is configured to send logs to the SIEM:<br>
+1. Verify Log Ingestion<br>
+Check if logs are arriving as expected using SIEM’s built-in log viewer or a search query.<br>
+Validate timestamp accuracy and log integrity.<br>
+2. Normalize and Parse Logs<br>
+Map log fields to your SIEM’s schema.<br>
+Convert raw logs into structured data for easier analysis.<br>
+3. Create and Tune Correlation Rules<br>
+Set up rules to detect security threats or anomalies.<br>
+<br>
 Use cases example: <br>
 USE CASE DAST - Correlate WAF/IPS events with URL vulnerables.<br>
 USE CASE DAST - Generate offenses when vulnerabilities with CVSS greater than 9.<br>
