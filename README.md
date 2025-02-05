@@ -13,7 +13,7 @@ Example:<br>
 ##########variables##########<br>
 asocApiKeyId='xxxxxxxxxxxxxxxxxxxxxxxxxx'<br>
 asocApiKeySecret='xxxxxxxxxxxxxxxxxxxxxxxxxx'<br>
-serviceUrl='cloud.appscan.com' # it could be as360 url<br>
+serviceUrl='cloud.appscan.com' # AS360 or ASoC url<br>
 syslogServer='10.10.10.10' # SIEM IP that will receive the messages<br>
 syslogPort='514'<br>
 messageFormat='LEEF' #i t could be LEEF, CEF or RFC5424<br>
