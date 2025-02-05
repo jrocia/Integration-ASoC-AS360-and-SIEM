@@ -18,3 +18,9 @@ syslogServer='10.10.10.10' # SIEM IP that will receive the messages<br>
 syslogPort='514'<br>
 messageFormat='LEEF' #i t could be LEEF, CEF or RFC5424<br>
 #############################<br>
+<br>
+Use cases example: <br>
+USE CASE DAST - Correlate WAF/IPS events with URL vulnerables.<br>
+USE CASE DAST - Generate offenses when vulnerabilities with CVSS greater than 9.<br>
+USE CASE SAST - Check Reference Set list by API Blacklisted.<br>
+USE CASE SAST/DAST/SCA – Alert in case New Issues.<br>
