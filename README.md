@@ -6,23 +6,23 @@ A Bash script that retrieves issues from ASoC or AS360, converts them into a spe
 3 - Make the script executable. <br>
 4 - Usage:<br>
 ````
-./appscan_issues_syslog_forwarder.sh <start_date> <start_hour> <end_date> <end_hour><br>
+./appscan_issues_syslog_forwarder.sh <start_date> <start_hour> <end_date> <end_hour>
 ````
 Example:<br> 
 ````
-./appscan_issues_syslog_forwarder.sh 2025-01-26 08 2025-01-27 18<br>
+./appscan_issues_syslog_forwarder.sh 2025-01-26 08 2025-01-27 18
 ````
 5 - You can add it to your cron job to fetch issues daily or hourly.<br>
 <br>
 ````
-##########variables##########<br>
-asocApiKeyId='xxxxxxxxxxxxxxxxxxxxxxxxxx'<br>
-asocApiKeySecret='xxxxxxxxxxxxxxxxxxxxxxxxxx'<br>
-serviceUrl='cloud.appscan.com' # AS360 or ASoC url<br>
-syslogServer='10.10.10.10' # SIEM IP that will receive the messages<br>
-syslogPort='514'<br>
-messageFormat='LEEF' #i t could be LEEF, CEF or RFC5424<br>
-#############################<br>
+##########variables##########
+asocApiKeyId='xxxxxxxxxxxxxxxxxxxxxxxxxx'
+asocApiKeySecret='xxxxxxxxxxxxxxxxxxxxxxxxxx'
+serviceUrl='cloud.appscan.com' # AS360 or ASoC url
+syslogServer='10.10.10.10' # SIEM IP that will receive the messages
+syslogPort='514'
+messageFormat='LEEF' #i t could be LEEF, CEF or RFC5424
+#############################
 ````
 <br>
 After the script is configured to send logs to the SIEM:<br>
