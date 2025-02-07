@@ -1,6 +1,8 @@
 # Integration ASoC/AS360 and SIEM tools
 A Bash script that retrieves issues from ASoC or AS360, converts them into a specific format (LEEF, CEF or SYSLOG RFC5424), and sends them to a SIEM via Syslog.<br>
 <br>
+<h2>How to use:</h2>
+<br>
 1 - Download the script file.<br>
 2 - Fill in the variables at the beginning of the script.<br>
 ````
