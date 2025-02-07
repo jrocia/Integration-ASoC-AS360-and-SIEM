@@ -44,3 +44,6 @@ Example in how SIEM will receive it:<br>
 ````
 LEEF:2.0|HCL|AppScan|1.0|AppScan_Vulnerability|scanId=351aabc0-6794-4d16-9816-22e8c121f661	appName=teste123	scanName=SAST 2025-01-26 Allinone.zip	scanTech=StaticAnalyzer	scanCreatedBy=email@domain.com	scanProgress=Completed	executionId=12b5cade-45d4-48f8-b99c-7925a1e012fd	executionDurationInSec=18	infoIssues=0	issueType=Cross-Site Scripting	language=JAVASCRIPT	issueSeverity=High	issueLocation=Allinone.js:29	issueApi=Allinone.js:29	issueStatus=Open	issueSource=Bypass Security For Untrusted Items	issueSourceFile=Allinone.js	issueLine=29	issueScanner=AppScan Static Analyzer	issueCWE=79	issueVulnName=Bypass Security For Untrusted Items	issueId=32b3af21-3adc-ef11-88f6-000d3ae45b58	issueDateCreated=2025-01-26T23:06:20.117807Z	issueLastUpdated=2025-01-26T23:06:20.1178071Z	issueLastFound=2025-01-26T23:07:24.4251848Z	issueCallingMethod=null	issueLibraryName=null	issueLibraryVersion=null	issueScaTech=null	issueContext=sanitizer.bypassSecurityTrustHtml('<h1>DomSanitizer</h1><script>ourisSafeCode()	issueCveId=null	issueCvePublishDate=null	issueCvss=null	issueDiscMethod=SAST	issueDomain=null	issueElement=null	issueElementType=None	issueHost=null	issueTypeId=CrossSiteScripting	issuePath=null	devTime=2025-02-07T14:16:14.681Z	src=xfce-VirtualBox
 ````
+````
+asdsadasd
+````
