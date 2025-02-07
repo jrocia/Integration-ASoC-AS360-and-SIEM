@@ -2,7 +2,6 @@
 A Bash script that retrieves issues from ASoC or AS360, converts them into a specific format (LEEF, CEF or SYSLOG RFC5424), and sends them to a SIEM via Syslog.<br>
 <br>
 <h3>How to use:</h3>
-<br>
 1 - Download the script file.<br>
 2 - Fill in the variables at the beginning of the script.<br>
 ````
@@ -26,6 +25,7 @@ Example:<br>
 ````
 5 - You can add it to your cron job to fetch issues daily or hourly.<br>
 <br>
+<h3>SIEM Steps:</h3>
 After the script is configured to send logs to the SIEM:<br>
 1 - Verify Log Ingestion<br>
 Check if logs are arriving as expected using SIEM’s built-in log viewer or a search query.<br>
@@ -36,7 +36,7 @@ Convert raw logs into structured data for easier analysis.<br>
 3 - Create and Tune Correlation Rules<br>
 Set up rules to detect security threats or anomalies.<br>
 <br>
-Use cases example: <br>
+<h3>Use cases example:</h3>
 USE CASE DAST - Correlate WAF/IPS events with URL vulnerables.<br>
 USE CASE DAST - Generate offenses when vulnerabilities with CVSS greater than 9.<br>
 USE CASE SAST - Check Reference Set list by API Blacklisted.<br>
